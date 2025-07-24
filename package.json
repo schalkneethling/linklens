@@ -1,0 +1,42 @@
+{
+  "name": "linklens",
+  "version": "1.0.0",
+  "description": "Accepts a URL, returns the title, description and SocialShare image",
+  "main": "netlify/functions/link-lens.mts",
+  "type": "module",
+  "scripts": {
+    "build": "netlify build",
+    "prettier:lint": "prettier .",
+    "prettier:format": "prettier --write .",
+    "lint:eslint": "eslint .",
+    "build:ts": "tsc"
+  },
+  "keywords": [
+    "link-analysis",
+    "netlify-functions",
+    "typescript"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schalkneethling/linklens.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@netlify/functions": "^4.1.15",
+    "@types/node": "^24.1.0",
+    "cheerio": "^1.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  }
+}
