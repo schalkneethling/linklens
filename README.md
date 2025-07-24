@@ -1,16 +1,18 @@
 # LinkLens
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1999470-27b2-4258-a3b9-165e9cc666e2/deploy-status)](https://app.netlify.com/projects/link-lens/deploys)
+
 A microservice that accepts a URL and returns the title, description, and social share image (Open Graph image) from the webpage.
 
 ## Overview
 
-LinkLens is a lightweight web scraping service built with TypeScript and deployed on Netlify Functions. It extracts essential metadata from web pages, making it perfect for generating link previews, social media cards, or any application that needs to display webpage information.
+LinkLens is a lightweight web scraping service built with TypeScript and deployed on Netlify Functions. It extracts essential metadata from web pages, making it ideal for generating link previews, social media cards, or any application that requires displaying webpage information.
 
 ## Features
 
 - **Fast and Lightweight**: Built on Netlify Functions for quick response times
 - **Rich Metadata Extraction**: Extracts title, description, and Open Graph images
-- **TypeScript**: Fully typed for better development experience
+- **TypeScript**: Fully typed for a better development experience
 - **Serverless**: No server maintenance required
 - **CORS Enabled**: Ready for cross-origin requests
 
