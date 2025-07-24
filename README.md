@@ -56,7 +56,7 @@ console.log(data.title, data.description, data.image);
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 22+
 - npm or yarn
 
 ### Setup

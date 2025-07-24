@@ -23,7 +23,7 @@
     "url": "https://github.com/schalkneethling/linklens.git"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "dependencies": {
     "@netlify/functions": "^4.1.15",
